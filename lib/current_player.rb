@@ -16,3 +16,6 @@ def current_player(board)
     return "O"
   end
 end
+
+board = [" ", "O", " ", " ", "X", " ", " ", " ", " "]
+current_player(board)
