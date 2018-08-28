@@ -1,14 +1,13 @@
 def turn_count(board)
   counter = 0
   board.each do |space|
-    puts space
-    # if space != '' && space != ' '
-    #   counter += 1
-    # end
+    if space != '' && space != ' '
+      counter += 1
+    end
   end
-  # puts counter
+  puts counter
 end
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-print board
+# print board
 turn_count(board)
